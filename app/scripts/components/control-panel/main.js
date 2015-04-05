@@ -51,6 +51,10 @@ define([
         el: this.view.$cssPanel
       });
 
+      this.jsPanelComponent = this.addComponent(JsPanelComponent, {
+        el: this.view.$jsPanel
+      });
+
       this.htmlPanelComponent = this.addComponent(HtmlPanelComponent, {
         el: this.view.$htmlPanel
       });

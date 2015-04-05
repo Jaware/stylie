@@ -194,6 +194,13 @@ define([
   };
 
   /**
+   * @return {Object}
+   */
+  fn.getJsExport = function () {
+    return this.rekapiComponent.rekapi.exportTimeline();
+  };
+
+  /**
    * @return {ActorModel}
    */
   fn.getCurrentActorModel = function () {
