@@ -19,18 +19,6 @@
     line-height: 1.4em
     margin-top: 0
 
-  a
-    &:active,
-    &:hover,
-    &:link,
-    &:visited
-      color: $chrome-link-color
-      font-weight: bold
-      text-decoration: none
-
-    &:hover
-      text-decoration: underline
-
   ul
     margin: 0
     padding: 0
@@ -72,6 +60,18 @@
 
   .tab-content
     padding: $input-spacing
+
+    a
+      &:active,
+      &:hover,
+      &:link,
+      &:visited
+        color: $chrome-link-color
+        font-weight: bold
+        text-decoration: none
+
+      &:hover
+        text-decoration: underline
 
     > .row:last-child
       padding-bottom: 0
