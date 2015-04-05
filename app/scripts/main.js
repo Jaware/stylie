@@ -68,6 +68,9 @@ require.config({
     name: 'stylie.component.css-panel'
     ,location: 'scripts/components/css-panel'
   }, {
+    name: 'stylie.component.js-panel'
+    ,location: 'scripts/components/js-panel'
+  }, {
     name: 'stylie.component.html-panel'
     ,location: 'scripts/components/html-panel'
   }, {

@@ -9,6 +9,7 @@ define([
   ,'stylie.component.keyframes-panel'
   ,'stylie.component.motion-panel'
   ,'stylie.component.css-panel'
+  ,'stylie.component.js-panel'
   ,'stylie.component.html-panel'
   ,'stylie.component.management-panel'
 
@@ -23,6 +24,7 @@ define([
   ,KeyframePanelComponent
   ,MotionPanelComponent
   ,CssPanelComponent
+  ,JsPanelComponent
   ,HtmlPanelComponent
   ,ManagementPanelComponent
 
