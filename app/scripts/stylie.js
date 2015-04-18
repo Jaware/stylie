@@ -197,7 +197,7 @@ define([
    * @return {Object}
    */
   fn.getJsExport = function () {
-    return this.rekapiComponent.rekapi.exportTimeline();
+    return this.rekapiComponent.getTimelineExportObject();
   };
 
   /**

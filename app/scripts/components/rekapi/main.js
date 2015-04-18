@@ -136,6 +136,15 @@ define([
     }
 
     /**
+     * @return {Object}
+     */
+    ,getTimelineExportObject: function () {
+      return this.applyOrientationToExport(function () {
+        return this.rekapi.exportTimeline();
+      });
+    }
+
+    /**
      * @param {Function} exportProcessor
      * @return {*}
      */
